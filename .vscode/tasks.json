@@ -7,6 +7,7 @@
       "label": "build",
       "type": "shell",
       "command": "sh build.sh",
+      "windows": { "command": "./build.bat" },
       "group": {
         "kind": "build",
         "isDefault": true
@@ -16,6 +17,7 @@
       "label": "start",
       "type": "shell",
       "command": "sh start.sh",
+      "windows": { "command": "./start.bat" },
       "options": {
         "cwd": "server"
       },
