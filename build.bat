@@ -1,3 +1,4 @@
+@echo off
 if not exist server/spigot.jar (
   cd server
   call build.bat
